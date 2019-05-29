@@ -25,9 +25,8 @@ public class Main {
         mountainList.add(new MountainBicycle(15,6,"Mountain Rock Star Bicycle","Private3"));
         mountainList.add(new MountainBicycle(18,7,"Mountain Bear Bicycle","Private4"));
 
-
         /*
-        // Following code does not work. Because ride method parameter List reference should be Bicycle type.
+        // Following code does not work. Because ride method parameter List reference should be a Bicycle type.
         List<String> list = new ArrayList<String>();
         main.ride(list);
         */
